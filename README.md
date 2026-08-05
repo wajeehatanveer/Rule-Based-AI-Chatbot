@@ -93,6 +93,18 @@ bye
 🤖 RuleBot: Hello Wajeeha! How can I assist you today? 😊
 ```
 
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- Rule-Based AI concepts
+- Decision-making using if-elif-else
+- Building interactive console applications
+- User input handling
+- Creating colorful terminal interfaces with Colorama
+- Writing clean and readable Python code
+
+
 ## 👩‍💻 Author
 
 **Wajeeha**
