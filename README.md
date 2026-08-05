@@ -41,11 +41,14 @@ python Chatbot.py
 - how are you
 - what is your name
 - who created you
+- what can you do
 - what is ai
 - what is python
 - help
 - good morning
 - good night
+- good afternoon
+- good evening
 - thank you
 - bye
 
