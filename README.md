@@ -1,110 +1,59 @@
-# 🤖 RuleBot – Rule-Based AI Chatbot
+# 🤖 Rule-Based AI Chatbot
 
-A simple and interactive **Rule-Based AI Chatbot** built using **Python**. This chatbot responds to predefined user inputs using **if-elif-else** statements and runs continuously until the user exits the conversation.
+A simple **Rule-Based AI Chatbot** built with Python as part of the **DecodeLabs Artificial Intelligence Internship – Project 1**.
 
 ## ✨ Features
 
-- 👋 Handles greetings (Hi, Hello, Hey)
-- 🤖 Introduces itself
-- 🧠 Answers basic AI-related questions
-- 🐍 Provides information about Python
-- 🙋 Responds to "Who are you?" and "What can you do?"
-- 🌅 Greets users (Good Morning, Good Afternoon, Good Evening, Good Night)
-- 🤝 Responds to "Thank You"
-- 📖 Help command
-- 🚪 Exit commands (bye, by, exit, quit)
-- ❓ Displays a friendly message for unknown inputs
-- 🎨 Colorful terminal interface using **Colorama**
-- 🔄 Runs continuously using a **while loop**
+* 💬 Rule-based chatbot responses
+* 🧠 Dictionary-based knowledge base
+* 🔤 Input sanitization using `lower()` and `strip()`
+* 🔍 Dictionary lookup using `.get()`
+* ❓ Fallback response for unknown inputs
+* 🚪 Exit commands: `bye`, `exit`, `quit`
+* 🎨 Colorful terminal interface using Colorama
+* 🌐 Streamlit web interface
+* 👤 Personalized responses using the user's name
 
----
+## 🛠️ Technologies
 
-## 🛠️ Technologies Used
+* Python
+* Colorama
+* Streamlit
 
-- Python 3
-- Colorama Library
+## 📁 Project Structure
 
----
-
-## 🧠 Python Concepts Used
-
-- Variables
-- User Input (`input()`)
-- Output (`print()`)
-- Conditional Statements (`if`, `elif`, `else`)
-- Infinite Loop (`while True`)
-- String Methods (`lower()`, `strip()`)
-- Break Statement
-- ANSI Terminal Colors (Colorama)
-
----
-
-## 📂 Project Structure
-
-```
-Rule-Based-AI-Chatbot/
+```text
+Project 1 Rule Based AI Chatbot/
 │
-├── Chatbot.py
-├── README.md
+├── chatbot.py
+├── app.py
+└── README.md
 ```
 
+## ▶️ Run the Project
 
-
-### 4. Run the chatbot
+### Terminal Version
 
 ```bash
-python Chatbot.py
-```
-## 💬 Sample Commands
-
-```
-hi
-hello
-assalam u alaikum
-how are you
-what is your name
-who are you
-who created you
-what is ai
-what is python
-what can you do
-good morning
-good afternoon
-good evening
-good night
-thank you
-help
-bye
+python chatbot.py
 ```
 
----
+### Streamlit Version
 
-## 📸 Sample Output
-
-```
-🤖 Welcome to RuleBot
-
-👤 Please enter your name: Wajeeha
-
-🤖 Hello, Wajeeha! Nice to meet you.
-
-👤 Wajeeha: hi
-
-🤖 RuleBot: Hello Wajeeha! How can I assist you today? 😊
+```bash
+streamlit run app.py
 ```
 
-## 🎯 Learning Outcomes
+## 🎯 Project Concepts
 
-Through this project, I learned:
+This project demonstrates:
 
-- Rule-Based AI concepts
-- Decision-making using if-elif-else
-- Building interactive console applications
-- User input handling
-- Creating colorful terminal interfaces with Colorama
-- Writing clean and readable Python code
+* Continuous input loop
+* Input sanitization
+* Dictionary-based intent matching
+* Response generation
+* Fallback handling
+* Clean exit strategy
+* Basic rule-based AI concepts
 
-
-## 👩‍💻 Author
-
-**Wajeeha**
+**Developed as part of the DecodeLabs AI Internship – Project 1.**
